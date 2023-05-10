@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,800&family=Roboto:wght@100;500;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #1f2023;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight:900;
+    font-family: 'Poppins', sans-serif;
+    border-top: 15px solid rgb(77, 109, 99);
+    border-bottom: 15px solid rgb(77, 109, 99);
+    border-radius: 7px;
+}
+
+legend{
+    background-color: rgb(77, 109, 99);
+}
+
+fieldset{
+    background-color: rgb(214, 226, 222);
+}
+
+p{
+    font-size: smaller;
+}
+
+input[type='submit'], input[type='reset']{
+    background-color: rgb(43,61,55);
+    color: rgb(52,109,139) ;
+    margin-top: 20px;
+    margin: auto;
+}

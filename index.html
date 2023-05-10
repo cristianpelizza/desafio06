@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>desafio-06-formularios-html-y-css</title>
+</head>
+
+<body>
+    <H1>Vení al Gym! 💪</H1>
+
+    <form action="">
+        <fieldset>
+            <legend>🙋🏼‍♂️ Datos Personales 👀</legend>
+
+            <label for="nombre">Nombre:*</label>
+            <input id="nombre" type="text" required>
+            <br>
+            <label for="apellido">Apellido:*</label>
+            <input id="apellido" type="text" required>
+            <br>
+            <label for="documento">Documento:*</label>
+            <input id="documento" type="text" required>
+            <br>
+            <label for="nacionalidad">Nacionalidad:*</label>
+            <select name="" id="nacionalidad" required>
+                <option value="" default>- Seleccionar -</option>
+                <option value="">Argentina</option>
+                <option value="">Brasileña</option>
+                <option value="">Uruguaya</option>
+                <option value="">Otra</option>
+            </select>
+            <br>
+            <label for="area">Contanos un poco de vos...</label>
+            <textarea name="area" id="" cols="30" rows="10"></textarea>
+            <br>
+            <label for="" id="" required>Sexo:*</label>
+            <br>
+            <input type="radio" id="radio_f" checked>
+            <label for="radio_f">Femenino</label>
+            <input type="radio" id="radio_m">
+            <label for="radio_m">Masculino</label>
+            <input type="radio" id="radio_o">
+            <label for="radio_o">Otro</label>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>📱 Datos de Contacto 📧</legend>
+            <label for="teléfono">Teléfono:</label>
+            <input id="teléfono" type="text" placeholder="Código de área y número">
+
+            <br>
+            <label for="email">Dirección de correo electrónico:*</label>
+            <input id="email" type="email" required placeholder="Ej: mail@gmail.com">
+            <br>
+        </fieldset>
+
+        <hr>
+        <fieldset>
+            <legend>🚴 Actividades 🤸‍♂️</legend>
+            <p>Por favor, indíca cuáles actividades te interesan.</p>
+
+            <p>Sede Palermo:</p>
+            <input type="checkbox" name="chck_palermo" id="pal_basquet"><label for="pal_basquet">Básquet</label>
+            <input type="checkbox" name="chck_palermo" id="pal_boxeo"><label for="pal_boxeo">Boxeo</label>
+            <input type="checkbox" name="chck_palermo" id="pal_futbol"><label for="pal_futbol">Fútbol</label>
+            <input type="checkbox" name="chck_palermo" id="pal_tenis"><label for="pal_tenis">Tenis</label>
+
+            <br>
+
+            <p>Sede Rosario:</p>
+            <input type="checkbox" name="chck_rosario" id="ros_basquet"><label for="ros_basquet">Básquet</label>
+            <input type="checkbox" name="chck_rosario" id="ros_futbol"><label for="ros_futbol">Fútbol</label>
+            <input type="checkbox" name="chck_rosario" id="ros_rugby"><label for="ros_rugby">Rugby</label>
+            <input type="checkbox" name="chck_rosario" id="ros_voley"><label for="ros_voley">Voley</label>
+        </fieldset>
+
+        <input type="checkbox" name="condiciones" id="chck_cond" required>
+        <label for="chck_cond">Acepto las condiciones*</label>
+        <br>
+        <input type="checkbox" name="novedades" id="chck_nov" checked>
+        <label for="chck_nov">Deseo recibir novedades</label>
+
+        <P>*: campo obligatorio.</P>
+
+        <input type="submit" value="Iniciar afiliación"></input>
+        <input type="reset"></input>
+    </form>
+
+
+
+</body>
+
+</html>
