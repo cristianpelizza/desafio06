@@ -54,7 +54,6 @@ input[type='submit'], input[type='reset'] {
     color: rgb(52,109,139) ;
     margin-top: 20px;
     margin: auto;
-    align
     border-radius: 3px;
 }
 input[type='text'], input[type='email']{
