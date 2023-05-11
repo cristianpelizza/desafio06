@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <H1>Vení al Gym! 💪</H1>
+    <H1>Vení al Gym! 💪🏻</H1>
 
     <form action="">
-        <fieldset>
+        <fieldset class="form">
             <legend>🙋🏼‍♂️ Datos Personales 👀</legend>
 
             <label for="nombre">Nombre:*</label>
-            <input id="nombre" type="text" required>
+            <input id="nombre" type="text" >
             <br>
             <label for="apellido">Apellido:*</label>
             <input id="apellido" type="text" required>
@@ -38,12 +38,15 @@
             <br>
             <label for="" id="" required>Sexo:*</label>
             <br>
-            <input type="radio" id="radio_f" checked>
-            <label for="radio_f">Femenino</label>
-            <input type="radio" id="radio_m">
-            <label for="radio_m">Masculino</label>
-            <input type="radio" id="radio_o">
-            <label for="radio_o">Otro</label>
+            <div>
+                <input name="sexo" type="radio" id="radio_f" checked>
+                <label for="radio_f">Femenino</label>
+                <input name="sexo" type="radio" id="radio_m">
+                <label for="radio_m">Masculino</label>
+                <input name="sexo" type="radio" id="radio_o">
+                <label for="radio_o">Otro</label>
+            </div>
+            
         </fieldset>
         <hr>
         <fieldset>
@@ -55,6 +58,7 @@
             <label for="email">Dirección de correo electrónico:*</label>
             <input id="email" type="email" required placeholder="Ej: mail@gmail.com">
             <br>
+            
         </fieldset>
 
         <hr>
@@ -63,18 +67,22 @@
             <p>Por favor, indíca cuáles actividades te interesan.</p>
 
             <p>Sede Palermo:</p>
-            <input type="checkbox" name="chck_palermo" id="pal_basquet"><label for="pal_basquet">Básquet</label>
-            <input type="checkbox" name="chck_palermo" id="pal_boxeo"><label for="pal_boxeo">Boxeo</label>
-            <input type="checkbox" name="chck_palermo" id="pal_futbol"><label for="pal_futbol">Fútbol</label>
-            <input type="checkbox" name="chck_palermo" id="pal_tenis"><label for="pal_tenis">Tenis</label>
-
+            <div>
+                <input type="checkbox" name="chck_palermo" id="pal_basquet"><label for="pal_basquet">Básquet</label>
+                <input type="checkbox" name="chck_palermo" id="pal_boxeo"><label for="pal_boxeo">Boxeo</label>
+                <input type="checkbox" name="chck_palermo" id="pal_futbol"><label for="pal_futbol">Fútbol</label>
+                <input type="checkbox" name="chck_palermo" id="pal_tenis"><label for="pal_tenis">Tenis</label>
+            </div>
+            
             <br>
 
             <p>Sede Rosario:</p>
-            <input type="checkbox" name="chck_rosario" id="ros_basquet"><label for="ros_basquet">Básquet</label>
-            <input type="checkbox" name="chck_rosario" id="ros_futbol"><label for="ros_futbol">Fútbol</label>
-            <input type="checkbox" name="chck_rosario" id="ros_rugby"><label for="ros_rugby">Rugby</label>
-            <input type="checkbox" name="chck_rosario" id="ros_voley"><label for="ros_voley">Voley</label>
+            <div>
+                <input type="checkbox" name="chck_rosario" id="ros_basquet"><label for="ros_basquet">Básquet</label>
+                <input type="checkbox" name="chck_rosario" id="ros_futbol"><label for="ros_futbol">Fútbol</label>
+                <input type="checkbox" name="chck_rosario" id="ros_rugby"><label for="ros_rugby">Rugby</label>
+                <input type="checkbox" name="chck_rosario" id="ros_voley"><label for="ros_voley">Voley</label>
+            </div>
         </fieldset>
 
         <input type="checkbox" name="condiciones" id="chck_cond" required>
@@ -83,14 +91,14 @@
         <input type="checkbox" name="novedades" id="chck_nov" checked>
         <label for="chck_nov">Deseo recibir novedades</label>
 
-        <P>*: campo obligatorio.</P>
+        <P class="pwhite">*: campo obligatorio.</P>
 
-        <input type="submit" value="Iniciar afiliación"></input>
-        <input type="reset"></input>
+        <div class="button_group">
+            <input type="submit" value="Iniciar afiliación"></input>
+            <input type="reset"></input>
+        </div>
+        
     </form>
-
-
-
 </body>
 
 </html>
