@@ -34,12 +34,11 @@ legend {
 
     display: flex;
     align-items: center;
-
 }
 
 
 fieldset {
-    background-color: rgb(214, 226, 222);
+    background-color: #d6e2de;
 }
 
 fieldset:has(input:focus, textarea:focus) {
@@ -105,7 +104,6 @@ label[for='chck_cond'],
 label[for='chck_nov'] {
     color: white;
     font-size: small;
-
 }
 
 .button_group {
@@ -116,6 +114,10 @@ label[for='chck_nov'] {
 .activitis {
     display: flex;
     align-self: flex-start;
+}
 
-
+hr {
+    border: 20px dotted #d6e2de;
+    border-style: none none dotted;
+    margin: 40px 300px 60px 300px;
 }
