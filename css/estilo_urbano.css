@@ -4,13 +4,13 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 
-
 }
 
 body {
-    background-image: url("../IMG/cityskyview.jpg");
+    background-image: url("../IMG/urban_gym.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-color: #1f2023;
     margin-left: 300px;
     margin-right: 300px;
@@ -18,7 +18,7 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(209, 13, 13);
+    color: rgb(80, 80, 80);
     font-size: 60px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
@@ -26,41 +26,57 @@ h1 {
     border-bottom: 10px double #1f2025;
     border-left: 10px double #1f2025;
     border-right: 10px double #1f2025;
+    background-image: url("../IMG/fondo-graffiti-mural-creativo-abstracto_23-2149007708.jpg");
 }
 
 legend {
-    background-color: rgb(77, 109, 99);
+    background-image: url("../IMG/fondo-graffiti-mural-creativo-abstracto_23-2149007708.jpg");
+    background-color: rgb(236, 13, 13);
     height: 35px;
     width: auto;
     border-radius: 7px;
-    color: white;
-
+    border: 3px solid black;
+    color: rgb(250, 3, 3);
     display: flex;
     align-items: center;
-
+    margin: auto;
+    
 }
 
 
 fieldset {
-    background-color: rgb(214, 226, 222);
+    background-color: rgba(69, 155, 128, 0.274);
 }
 
 p {
+    color: antiquewhite;
     font-size: smaller;
     align-self: flex-start;
 }
 
 .pwhite {
-    color: white
+    color: rgb(248, 244, 244)
 }
 
+label{
+    color: rgb(252, 252, 252);
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
 input[type='submit'],
 input[type='reset'] {
-    background-color: rgb(43, 61, 55);
-    color: rgb(52, 109, 139);
+    background-color: rgba(128, 143, 138, 0.822);
+    color: rgb(207, 34, 34);
     margin-top: 20px;
     margin: auto;
-    border-radius: 3px;
+    width: 200px;
+    height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: bolder;
+    
 }
 
 input[type='text'],
@@ -82,13 +98,13 @@ textarea {
 
 select {
     width: 500px;
-    height: 25px;
-    color: rgb(95, 156, 200, 0.75);
+    height: 35px;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 input:focus,
 textarea:focus {
-    background-color: #4D6D63;
+    background-color: #ca870a98;
 }
 
 .form,
