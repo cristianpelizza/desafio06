@@ -36,33 +36,48 @@ legend {
     height: 35px;
     width: auto;
     border-radius: 7px;
+    border: 3px solid black;
     color: rgb(250, 3, 3);
     display: flex;
     align-items: center;
-
+    margin: auto;
+    
 }
 
 
 fieldset {
-    background-color: rgba(214, 226, 222, 0);
+    background-color: rgba(69, 155, 128, 0.274);
 }
 
 p {
+    color: antiquewhite;
     font-size: smaller;
     align-self: flex-start;
 }
 
 .pwhite {
-    color: white
+    color: rgb(248, 244, 244)
 }
 
+label{
+    color: rgb(252, 252, 252);
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
 input[type='submit'],
 input[type='reset'] {
-    background-color: rgb(43, 61, 55);
-    color: rgb(52, 109, 139);
+    background-color: rgba(128, 143, 138, 0.822);
+    color: rgb(207, 34, 34);
     margin-top: 20px;
     margin: auto;
-    border-radius: 3px;
+    width: 200px;
+    height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: bolder;
+    
 }
 
 input[type='text'],
@@ -84,13 +99,13 @@ textarea {
 
 select {
     width: 500px;
-    height: 25px;
-    color: rgb(95, 156, 200, 0.75);
+    height: 35px;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 input:focus,
 textarea:focus {
-    background-color: #4D6D63;
+    background-color: #ca870a98;
 }
 
 .form,
