@@ -8,6 +8,9 @@
 }
 
 body {
+    background-image: url("../IMG/cityskyview.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #1f2023;
     margin-left: 300px;
     margin-right: 300px;
@@ -15,14 +18,14 @@ body {
 
 h1 {
     text-align: center;
-    color: white;
-    font-size: 40px;
+    color: rgb(209, 13, 13);
+    font-size: 60px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
-    border-top: 15px solid rgb(77, 109, 99);
-    border-bottom: 15px solid rgb(77, 109, 99);
-    border-left: 15px solid #1f2023;
-    border-right: 15px solid #1f2023;
+    border-top: 10px double #1f2025;
+    border-bottom: 10px double #1f2025;
+    border-left: 10px double #1f2025;
+    border-right: 10px double #1f2025;
 }
 
 legend {
