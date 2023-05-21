@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,800&family=Roboto:wght@100;500;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+body {
+    background-image: url("../IMG/cityskyview.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #1f2023;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(209, 13, 13);
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    border-top: 10px double #1f2025;
+    border-bottom: 10px double #1f2025;
+    border-left: 10px double #1f2025;
+    border-right: 10px double #1f2025;
+}
+
+legend {
+    background-color: rgb(77, 109, 99);
+    height: 35px;
+    width: auto;
+    border-radius: 7px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+fieldset {
+    background-color: rgb(214, 226, 222);
+}
+
+p {
+    font-size: smaller;
+    align-self: flex-start;
+}
+
+.pwhite {
+    color: white
+}
+
+input[type='submit'],
+input[type='reset'] {
+    background-color: rgb(43, 61, 55);
+    color: rgb(52, 109, 139);
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 3px;
+}
+
+input[type='text'],
+input[type='email'] {
+    margin-top: 20px;
+    margin: auto;
+    width: 500px;
+    height: 25;
+    caret-color: white;
+    direction: rtl;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    caret-color: white;
+    direction: rtl;
+}
+
+select {
+    width: 500px;
+    height: 25px;
+    color: rgb(95, 156, 200, 0.75);
+}
+
+input:focus,
+textarea:focus {
+    background-color: #4D6D63;
+}
+
+.form,
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+label[for='chck_cond'],
+label[for='chck_nov'] {
+    color: white;
+    font-size: small;
+
+}
+
+.button_group {
+    display: flex;
+    justify-content: center;
+}
+
+.activitis {
+    display: flex;
+    align-self: flex-start;
+
+
+}
