@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="css/estilo_urbano.css"> -->
+    <!-- <link rel="stylesheet" href="css/estilo_retro.css"> -->
     <title>desafio-06-formularios-html-y-css</title>
 </head>
 
 <body>
     <H1>Vení al Gym! 💪🏻</H1>
 
-    <form action="">
-        <fieldset class="form">
+    <form>
+        <fieldset class="first-field">
             <legend>🙋🏼‍♂️ Datos Personales 👀</legend>
 
             <label for="nombre">Nombre:*</label>
@@ -25,18 +27,18 @@
             <input id="documento" type="text" required>
             <br>
             <label for="nacionalidad">Nacionalidad:*</label>
-            <select name="" id="nacionalidad" required>
-                <option value="" default>- Seleccionar -</option>
-                <option value="">Argentina</option>
-                <option value="">Brasileña</option>
-                <option value="">Uruguaya</option>
-                <option value="">Otra</option>
+            <select name="nacionalidad" id="nacionalidad" required>
+                <option value="" selected>- Seleccionar -</option>
+                <option value="arg">Argentina</option>
+                <option value="bra">Brasileña</option>
+                <option value="ur">Uruguaya</option>
+                <option value="otra">Otra</option>
             </select>
             <br>
             <label for="area">Contanos un poco de vos...</label>
-            <textarea name="area" id="" cols="70" rows="10"></textarea>
+            <textarea id="area" name="area" cols="70" rows="10"></textarea>
             <br>
-            <label for="" id="" required>Sexo:*</label>
+            <label>Sexo:*</label>
             <br>
             <div>
                 <input name="sexo" type="radio" id="radio_f" checked>
@@ -49,7 +51,7 @@
 
         </fieldset>
         <hr>
-        <fieldset>
+        <fieldset class="second-field">
             <legend>📱 Datos de Contacto 📧</legend>
             <label for="teléfono">Teléfono:</label>
             <input id="teléfono" type="text" placeholder="Código de área y número">
@@ -62,7 +64,7 @@
         </fieldset>
 
         <hr>
-        <fieldset>
+        <fieldset class="third-field">
             <legend>🚴 Actividades 🤸‍♂️</legend>
             <p>Por favor, indíca cuáles actividades te interesan.</p>
 
@@ -94,8 +96,8 @@
         <P class="pwhite">*: campo obligatorio.</P>
 
         <div class="button_group">
-            <input type="submit" value="Iniciar afiliación"></input>
-            <input type="reset"></input>
+            <input type="submit" value="Iniciar afiliación">
+            <input type="reset">
         </div>
 
     </form>

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url('../IMG/retro_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+h1 {
+    background-image: url('../IMG/retro_banner.png');
+    border-radius: 12px;
+    border-color: #CEC37B;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.first-field {
+    box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.5);
+    background-image: url('../IMG/retro-first-fieldset.jpg');
+    width: 100px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.second-field {
+    box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.5);
+    background-image: url('../IMG/retro-second-fieldset.jpg');
+    width: 100px;
+    height: 340px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.third-field {
+    box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.5);
+    background-image: url('../IMG/retro-third-fieldset.avif');
+    width: 450px;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+fieldset > label {
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    background-color: rgba(0, 0, 0, 0.5);
+    caret-color: white;
+    color: white;
+}
+
+fieldset > div {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+label {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button_group {
+    display: flex;
+    margin-left: 99px;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+input[type='submit'], input[type='reset']{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-right: 30px;
+}
+
+input[type='submit'], input[type='reset']{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    width: 200px;
+    height: 30px;
+}
+
+input[type='submit']:focus, input[type='reset']:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+legend {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 30px;
+}
